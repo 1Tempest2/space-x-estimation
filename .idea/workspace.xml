@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c018ffaf-f3d2-4c5f-b0af-0e3f16475524" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter-notebooks/jupyter-labs-spacex-data-collection-api.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter-notebooks/jupyter-labs-spacex-data-collection-api.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter-notebooks/labs-jupyter-spacex-Data wrangling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter-notebooks/labs-jupyter-spacex-Data wrangling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/api-call.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/api-call.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/web-scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/web-scraping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2uAohreUolUJ2pRDpFF9LQ8rnzU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,10 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.api-call.executor": "Run",
     "Python.main.executor": "Run",
     "Python.web-scraping.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "web-scraping",
+    "git-widget-placeholder": "data-wrangling",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741700861930</updated>
-      <workItem from="1741700863285" duration="8911000" />
+      <workItem from="1741700863285" duration="9585000" />
     </task>
     <servers />
   </component>
@@ -101,7 +105,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/space_x_estimation$web_scraping.coverage" NAME="web-scraping Coverage Results" MODIFIED="1741715541727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$api_call.coverage" NAME="api-call Coverage Results" MODIFIED="1741716152507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$web_scraping.coverage" NAME="web-scraping Coverage Results" MODIFIED="1741715920348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$main.coverage" NAME="main Coverage Results" MODIFIED="1741713891478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>
 </project>

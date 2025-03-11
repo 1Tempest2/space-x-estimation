@@ -114,7 +114,7 @@ df_falcon9.loc[:, 'FlightNumber'] = list(range(1, df_falcon9.shape[0] + 1))
 df_falcon9["PayloadMass"] = df_falcon9["PayloadMass"].fillna(df_falcon9["PayloadMass"].mean())
 
 #print(df_falcon9.count())
-
+df_falcon9.to_csv("falcon9_launches.csv", index=False)
 
 
 

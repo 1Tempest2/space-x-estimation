@@ -173,4 +173,4 @@ for table_number, table in enumerate(soup.find_all('table', "wikitable plainrowh
             launch_dict["Booster landing"].append(booster_landing)
             # print(booster_landing)
 df= pd.DataFrame({ key:pd.Series(value) for key, value in launch_dict.items() })
-print(df.describe())
+print(df.isnull().sum()/len(df)*100)
