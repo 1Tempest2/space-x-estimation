@@ -2,9 +2,10 @@ import pandas as pd
 
 df = pd.read_csv("Data/falcon9_launches.csv")
 #df = pd.read_csv("Data/dataset_part_1.csv")
-#print(df["LaunchSite"].value_counts())
-#print(df["Orbit"].value_counts())
+print(df["LaunchSite"].value_counts())
+print(df["Orbit"].value_counts())
 landing_outcomes = df["Outcome"].value_counts()
+print(landing_outcomes)
 for i,outcome in enumerate(landing_outcomes.keys()):
     print(i,outcome)
 bad_outcomes=set(landing_outcomes.keys()[[1,3,5,6,7]])

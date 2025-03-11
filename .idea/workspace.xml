@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c018ffaf-f3d2-4c5f-b0af-0e3f16475524" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/data-wrangling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/dataset_part_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/Data/dataset_part_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/falcon9_launches.csv" beforeDir="false" afterPath="$PROJECT_DIR$/main/Data/falcon9_launches.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/data-wrangling.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/data-wrangling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Botond\PycharmProjects\space-x-estimation\main\Data" />
       <recent name="C:\Users\Botond\PycharmProjects\space-x-estimation\main" />
       <recent name="C:\Users\Botond\PycharmProjects\space-x-estimation\Data" />
       <recent name="C:\Users\Botond\PycharmProjects\space-x-estimation\jupyter-notebooks" />
@@ -98,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741700861930</updated>
-      <workItem from="1741700863285" duration="10549000" />
+      <workItem from="1741700863285" duration="12364000" />
     </task>
     <servers />
   </component>
@@ -108,7 +107,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/space_x_estimation$api_call.coverage" NAME="api-call Coverage Results" MODIFIED="1741716294963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$web_scraping.coverage" NAME="web-scraping Coverage Results" MODIFIED="1741715920348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/space_x_estimation$data_wrangling.coverage" NAME="data-wrangling Coverage Results" MODIFIED="1741717171744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$data_wrangling.coverage" NAME="data-wrangling Coverage Results" MODIFIED="1741717505778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$main.coverage" NAME="main Coverage Results" MODIFIED="1741713891478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>
 </project>
