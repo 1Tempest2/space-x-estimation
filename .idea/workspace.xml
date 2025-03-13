@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c018ffaf-f3d2-4c5f-b0af-0e3f16475524" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/Data/Spacex.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Data/spacex_launch_dash.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Data/spacex_launch_geo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/EDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/interactive_dashboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/interactive_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/neuron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Databases/spacex.db" beforeDir="false" afterPath="$PROJECT_DIR$/main/Databases/spacex.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/EDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dataset_part_2.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.EDA.executor": "Run",
-    "Python.api-call.executor": "Run",
-    "Python.data-wrangling.executor": "Run",
-    "Python.database.executor": "Run",
-    "Python.interactive_dashboard.executor": "Run",
-    "Python.interactive_plot.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.model.executor": "Run",
-    "Python.web-scraping.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Botond/PycharmProjects/space-x-estimation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.EDA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api-call.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data-wrangling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interactive_dashboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interactive_plot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.neuron.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web-scraping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Botond/PycharmProjects/space-x-estimation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Botond\PycharmProjects\space-x-estimation\main\Data" />
@@ -114,7 +112,7 @@
       <updated>1741700861930</updated>
       <workItem from="1741700863285" duration="12364000" />
       <workItem from="1741801037994" duration="4777000" />
-      <workItem from="1741851636375" duration="8719000" />
+      <workItem from="1741851636375" duration="13192000" />
     </task>
     <servers />
   </component>
@@ -122,14 +120,15 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/space_x_estimation$EDA.coverage" NAME="EDA Coverage Results" MODIFIED="1741805781355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/space_x_estimation$interactive_plot.coverage" NAME="interactive_plot Coverage Results" MODIFIED="1741855697902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/space_x_estimation$model.coverage" NAME="model Coverage Results" MODIFIED="1741859498029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$EDA.coverage" NAME="EDA Coverage Results" MODIFIED="1741862986705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$interactive_plot.coverage" NAME="interactive_plot Coverage Results" MODIFIED="1741863599782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$model.coverage" NAME="model Coverage Results" MODIFIED="1741864132528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$neuron.coverage" NAME="neuron Coverage Results" MODIFIED="1741873794595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$api_call.coverage" NAME="api-call Coverage Results" MODIFIED="1741861356662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$web_scraping.coverage" NAME="web-scraping Coverage Results" MODIFIED="1741715920348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/space_x_estimation$interactive_dashboard.coverage" NAME="interactive_dashboard Coverage Results" MODIFIED="1741856578266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/space_x_estimation$database.coverage" NAME="database Coverage Results" MODIFIED="1741803753254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$interactive_dashboard.coverage" NAME="interactive_dashboard Coverage Results" MODIFIED="1741863850959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$data_wrangling.coverage" NAME="data-wrangling Coverage Results" MODIFIED="1741805688201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$database.coverage" NAME="database Coverage Results" MODIFIED="1741863151892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$main.coverage" NAME="main Coverage Results" MODIFIED="1741713891478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>
 </project>
