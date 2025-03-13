@@ -9,9 +9,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, callbacks, models
 
-# =============================
-# Data Loading and Preprocessing
-# =============================
+
 data = pd.read_csv("Data/dataset_part_2.csv")
 X = pd.read_csv("Data/dataset_part_3.csv")
 Y = data['Class'].to_numpy()
@@ -23,13 +21,9 @@ X = preprocessing.StandardScaler().fit_transform(X)
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=2)
 
 
-# =============================
-# Neural Network Architecture
-# =============================
 def build_model(input_shape):
     inputs = keras.Input(shape=(input_shape,))
 
-    # Hidden Layers with Dropout and BatchNorm
     x = layers.Dense(128, activation='relu')(inputs)
     x = layers.BatchNormalization()(x)
     x = layers.Dropout(0.3)(x)
@@ -42,19 +36,15 @@ def build_model(input_shape):
     x = layers.BatchNormalization()(x)
     x = layers.Dropout(0.2)(x)
 
-    # Output Layer (Binary Classification)
     outputs = layers.Dense(1, activation='sigmoid')(x)
 
-    # Model
     model = models.Model(inputs, outputs)
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
     return model
 
 
-# =============================
-# Callbacks
-# =============================
+
 early_stopping = callbacks.EarlyStopping(
     monitor='val_loss',
     patience=10,
@@ -67,9 +57,7 @@ checkpoint = callbacks.ModelCheckpoint(
     save_best_only=True
 )
 
-# =============================
-# Training the Model
-# =============================
+
 model = build_model(X_train.shape[1])
 
 history = model.fit(
@@ -80,16 +68,12 @@ history = model.fit(
     verbose=1
 )
 
-# =============================
-# Evaluation
-# =============================
+
 test_loss, test_accuracy = model.evaluate(X_test, Y_test)
 print(f"Test Accuracy: {test_accuracy:.4f}")
 
 
-# =============================
-# Plot Training Results
-# =============================
+
 def plot_history(history):
     plt.figure(figsize=(12, 5))
 
@@ -114,9 +98,7 @@ def plot_history(history):
 
 plot_history(history)
 
-# =============================
-# Confusion Matrix
-# =============================
+
 y_pred = (model.predict(X_test) > 0.5).astype("int32")
 
 

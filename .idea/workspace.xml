@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c018ffaf-f3d2-4c5f-b0af-0e3f16475524" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/neuron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Databases/spacex.db" beforeDir="false" afterPath="$PROJECT_DIR$/main/Databases/spacex.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/EDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/dataset_part_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/neuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/neuron.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +109,8 @@
       <workItem from="1741700863285" duration="12364000" />
       <workItem from="1741801037994" duration="4777000" />
       <workItem from="1741851636375" duration="13192000" />
+      <workItem from="1741874248472" duration="827000" />
+      <workItem from="1741891086086" duration="4902000" />
     </task>
     <servers />
   </component>
@@ -123,7 +121,7 @@
     <SUITE FILE_PATH="coverage/space_x_estimation$EDA.coverage" NAME="EDA Coverage Results" MODIFIED="1741862986705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$interactive_plot.coverage" NAME="interactive_plot Coverage Results" MODIFIED="1741863599782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$model.coverage" NAME="model Coverage Results" MODIFIED="1741864132528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/space_x_estimation$neuron.coverage" NAME="neuron Coverage Results" MODIFIED="1741873794595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/space_x_estimation$neuron.coverage" NAME="neuron Coverage Results" MODIFIED="1741874455367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$api_call.coverage" NAME="api-call Coverage Results" MODIFIED="1741861356662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$web_scraping.coverage" NAME="web-scraping Coverage Results" MODIFIED="1741715920348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/space_x_estimation$interactive_dashboard.coverage" NAME="interactive_dashboard Coverage Results" MODIFIED="1741863850959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
